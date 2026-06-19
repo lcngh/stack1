@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -17,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/lcngh/stack1/issues"
   },
-  "homepage": "https://github.com/lcngh/stack1#readme"
+  "homepage": "https://github.com/lcngh/stack1#readme",
+  "devDependencies": {
+    "vite": "^8.0.16"
+  }
 }
